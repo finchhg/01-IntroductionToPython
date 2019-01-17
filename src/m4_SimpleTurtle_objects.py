@@ -139,7 +139,7 @@ boris.forward(500)
 boris.go_to(rg.Point(-100,200))
 ###############################################################################
 #
-# TODO: 5.
+# done: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
@@ -163,7 +163,13 @@ boris.go_to(rg.Point(-100,200))
 #   As always, test by running the module.
 #
 ###############################################################################
+harry = rg.SimpleTurtle('turtle')
+harry.pen = rg.Pen('green',20)
+harry.speed=5
 
+harry.forward(400)
+harry.backward(500)
+harry.go_to(rg.Point(-100,200))
 ###############################################################################
 #
 # TODO: 6.
