@@ -95,7 +95,18 @@ print(type(3.14))
 # After you have written and run the code to learn the TYPE
 # of each of the above, change the above _TODO_ to DONE.
 ###############################################################################
-
+print(type("hello"))
+print(type('hello'))
+print(type('a b c'))
+print(type(3 + 3))
+print(type("3" + "3"))
+print(type(2 ** 100))
+print(type(2.0 ** 100))
+print(type(m.sin(8)))
+print(type(m.sin))
+print(type(print))
+print(type(m))
+print(type('m'))
 ###############################################################################
 #
 # TODO: 6.
