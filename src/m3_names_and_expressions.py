@@ -56,7 +56,7 @@ print(m.sqrt(2))
 print(2**0.5)
 
 ###############################################################################
-# TODO: 5.
+# done: 5.
 #   Every object has a TYPE and a VALUE.  For example,
 #   for the object that is computed by  math.sqrt(2):
 #      Its TYPE is float  (which is shorthand for "floating point number").
@@ -109,7 +109,7 @@ print(type(m))
 print(type('m'))
 ###############################################################################
 #
-# TODO: 6.
+# done: 6.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #   Run one more time to be sure that all is still OK.
 #
