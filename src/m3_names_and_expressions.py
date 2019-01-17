@@ -36,15 +36,15 @@ print(77+m.cos(2.75))
 
 
 ###############################################################################
-# TODO: 3.
+# done: 3.
 #   Immediately below this _TODO_, write code that computes and prints:
 #      the square root of ((41 * 88) + (4 * the cosine of 2))
 #   Use as few or as many intermediate names as you feel appropriate.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-
+print(m.sqrt((41*88)+(4*m.cos(2))))
 ###############################################################################
-# TODO: 4.
+# done: 4.
 #   Immediately below this _TODO_,
 #   write code that computes the square root of 2 in two ways:
 #     - By using the   math.sqrt   function.
@@ -52,7 +52,8 @@ print(77+m.cos(2.75))
 #   Print both of the expressions that you write.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-
+print(m.sqrt(2))
+print(2**0.5)
 
 ###############################################################################
 # TODO: 5.
@@ -72,7 +73,7 @@ print(77+m.cos(2.75))
 #   will print     <class 'float'>
 #   Try it now!
 #   (Just write   print(type(3.14))   below this _TODO_ and run the program.)
-#
+print(type(3.14))
 #   Now go through the BLAH objects listed below, one by one.  For each:
 #      1. Try to GUESS its TYPE.
 #      2. Then write code of the form   print(type(BLAH)).
