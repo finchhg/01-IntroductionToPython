@@ -126,7 +126,17 @@ natasha.go_to(rg.Point(-100, 200))
 #   As always, test by running the module.
 #
 ###############################################################################
-
+boris.right(50)
+boris.speed=9
+boris.forward(50)
+boris.right(50)
+boris.forward(200)
+boris.right(90)
+boris.speed=2
+boris.forward(300)
+boris.right(90)
+boris.forward(500)
+boris.go_to(rg.Point(-100,200))
 ###############################################################################
 #
 # TODO: 5.
