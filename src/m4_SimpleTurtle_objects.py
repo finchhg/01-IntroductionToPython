@@ -172,7 +172,7 @@ harry.backward(500)
 harry.go_to(rg.Point(-100,200))
 ###############################################################################
 #
-# TODO: 6.
+# done: 6.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #   Run one more time to be sure that all is still OK.
 #
