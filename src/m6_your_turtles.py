@@ -30,12 +30,11 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 ########################################################################
 import rosegraphics as rg
 
-window =rg.TurtleWindow()
+window = rg.TurtleWindow()
 
 jim = rg.SimpleTurtle('turtle')
 jim.pen = rg.Pen('Pink', 20)
 jim.speed = 20
-print('20')
 size = 500
 
 for k in range(20):
